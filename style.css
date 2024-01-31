@@ -14,10 +14,11 @@ body {
     font-weight: normal;
 }
 
-header {
-    padding: 16px 0;
+header,
+footer {
     background-color: #182C61;
     color: #ecf0f1;    
+    padding: 16px 0;
 }
 
 header nav li {
