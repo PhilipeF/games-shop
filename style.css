@@ -5,7 +5,13 @@
 }
 
 header, section h2, section h3, form, button {
-    font-family: 'Bungee', cursive
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 header {
@@ -14,16 +20,44 @@ header {
     color: #ecf0f1;    
 }
 
+header nav li {
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
 .container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
 
-header .container {
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+section {
+    padding: 24px 0;
+    color: #182C61;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+section .container {
+    align-items: flex-start;
 }
 
 .container ul {
@@ -38,5 +72,14 @@ header .container {
     color: #ecf0f1;
     text-decoration: none;
     margin-left: 16px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.brands-list img {
+    height: 24px;
 }
 
