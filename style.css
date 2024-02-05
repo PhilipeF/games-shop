@@ -24,7 +24,6 @@ footer {
 header nav li {
     font-size: 18px;
     font-weight: normal;
-
 }
 
 form input,
@@ -118,14 +117,6 @@ section .container {
 .contact-methods {
     display: flex;
     justify-content: space-between;
-}
-
-div {
-    display: block;
-}
-
-form {
-    display: block;
 }
 
 .social-links img {
